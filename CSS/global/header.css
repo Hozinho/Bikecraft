@@ -3,16 +3,13 @@
   color: #ffffff;
 }
 .header {
-  max-width: 1200px;
   align-items: center;
   align-content: center;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto;
-  gap: 40px;
-  padding: 10px;
-  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .header-menu {
   display: flex;
@@ -24,7 +21,7 @@
   display: block;
   width: 0px;
   height: 2px;
-  background: #ffffff;
+  background: var(--cor-0);
   transition: 0.3s;
   position: absolute;
 }
@@ -38,7 +35,7 @@
   font-size: 1.125rem;
   line-height: 2.6;
   padding: 16px 0px;
-  color: #ffffff;
+  color: var(--cor-0);
   display: inline-block;
   position: relative;
 }
@@ -51,7 +48,7 @@
     display: none;
   }
   .header-menu a {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding: 0px 16px;
     border-radius: 5px;
   }

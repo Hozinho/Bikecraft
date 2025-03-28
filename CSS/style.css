@@ -1,2 +1,10 @@
 @import url("global/global.css");
+@import url('./global/tipografia.css');
+@import url('global/componentes.css');
+@import url('global/cores.css');
+
 @import url("global/header.css");
+@import url('global/introducao.css');
+@import url('./bicicletas.css');
+@import url('./tecnologia.css');
+@import url('parceiros.css');
