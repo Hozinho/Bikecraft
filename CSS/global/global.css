@@ -9,7 +9,7 @@ h1, h2, h3, h4, p, a, li, blockquote {
 }
 a {
   text-decoration: none;
-  color: #111111;
+  color: inherit;
 }
 ul {
   list-style: none;
