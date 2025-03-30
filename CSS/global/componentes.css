@@ -14,7 +14,7 @@
     margin-left: 20px;
   }
 }
-.botao {
+.botao  {
   text-transform: uppercase;
   display: inline-block;
   font-family: 'popins';
@@ -28,7 +28,7 @@
   box-shadow:  0px 1px 2px rgba(0, 0, 0, 0.1);
   max-width: max-content;
 }
-.botao a:hover {
+.botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
 .botao.secundario {
@@ -60,6 +60,23 @@ background-color: currentColor;
 .link:hover {
   color: var(--cor-0);
 }
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url('../../img/icones/seta.svg');
+  transition: transform .2seg;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
 
 .termo-bg {
   background-color: var(--cor-11);
