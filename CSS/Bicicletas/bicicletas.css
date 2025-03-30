@@ -63,6 +63,7 @@
 }
 .bicicletas-vantagens img {
   margin: 0px 8px;
+  border-radius: 5px;
 }
 .bicicletas-conteudo a {
   place-self: end;
