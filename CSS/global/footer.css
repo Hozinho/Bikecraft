@@ -43,3 +43,12 @@
     margin-top: 0px;
   }
 }
+.insta:hover {
+ content: url('../../img/redes/instagram-p.svg');
+}
+.face:hover {
+  content: url('../../img/redes/facebook-p.svg');
+}
+.you:hover {
+  content: url('../../img/redes/youtube-p.svg');
+}
